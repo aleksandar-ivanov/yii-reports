@@ -1,0 +1,13 @@
+{
+    "name": "aleksandar-ivanov/aivanov-module-reports",
+    "description": "A yii cms module for generating reports",
+    "type": "aivanov-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandar Ivanov",
+            "email": "aleksandar.ivanov@mentormate.com"
+        }
+    ],
+    "require": {}
+}
