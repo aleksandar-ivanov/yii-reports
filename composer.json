@@ -9,5 +9,7 @@
             "email": "aleksandar.ivanov@mentormate.com"
         }
     ],
-    "require": {}
+    "require": {
+        "aleksandar-ivanov/aivanov-module-users" : "dev-master"
+    }
 }
