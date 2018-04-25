@@ -21,4 +21,9 @@ class ReportsManagement extends \yii\base\Module
 
         // custom initialization code goes here
     }
+
+    public function getIcon()
+    {
+        return 'bar-chart';
+    }
 }
