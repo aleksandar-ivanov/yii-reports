@@ -22,6 +22,11 @@ class ReportsManagement extends \yii\base\Module
         // custom initialization code goes here
     }
 
+    public function canBeManaged()
+    {
+        return !\Yii::$app->user->isGuest && \Yii::$app->user->can('manageReport');
+    }
+
     public function getIcon()
     {
         return 'bar-chart';
